@@ -32,6 +32,12 @@ Healthcare workflow documentation describing the process for scheduling new pati
 
 [Read Article](articles/new-patient-scheduling.md)
 
+### ISP Static Configuration
+
+IT networking documentation describing the process for verifying and reconfiguring a back office machine to test ISP static IP settings, including adapter configuration, direct ISP device testing, and escalation paths.
+
+[Read Article](articles/isp-static-configuration.md)
+
 ## About Me
 
 I'm based in the Indianapolis area and am currently seeking Technical Writer, Knowledge Management, and IT Documentation opportunities.

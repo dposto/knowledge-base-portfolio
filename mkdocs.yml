@@ -14,3 +14,4 @@ nav:
   - Home: index.md
   - Articles:
     - New Patient Scheduling: articles/new-patient-scheduling.md
+    - ISP Static Configuration: articles/isp-static-configuration.md
