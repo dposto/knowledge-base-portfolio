@@ -1,0 +1,16 @@
+site_name: David Posto – Technical Writing Portfolio
+site_url: https://dposto.github.io/kb-portfolio
+
+theme:
+  name: material
+  palette:
+    scheme: slate          # dark mode — change to "default" for light
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Articles:
+    - New Patient Scheduling: articles/new-patient-scheduling.md
