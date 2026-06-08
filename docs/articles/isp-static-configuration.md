@@ -17,10 +17,10 @@ Use this procedure when troubleshooting a site that may have an ISP-side static 
 
 This process may be required when:
 
-* The site is operating on a backup internet connection
-* The site is connected through a secondary WAN interface
-* The site is completely offline
-* Connectivity issues suggest a static IP configuration problem
+1. The site is operating on a backup internet connection.
+2. The site is connected through a secondary WAN interface.
+3. The site is completely offline.
+4. Connectivity issues suggest a static IP configuration problem.
 
 ---
 
@@ -28,16 +28,16 @@ This process may be required when:
 
 ### Pre-Step 1: Set Priority
 
-* Set the Service Order priority to **Priority 1**.
+1. Set the Service Order priority to **Priority 1**.
 
 ---
 
 ### Pre-Step 2: Verify Eligibility
 
-This procedure should only be used when:
+1. Verify one of the following conditions exists:
 
-* The site is already operating on a backup internet connection, or
-* The site is completely offline.
+   1. The site is already operating on a backup internet connection.
+   2. The site is completely offline.
 
 > **Note:** In many environments, a secondary WAN interface is configured using DHCP and can be used for temporary connectivity testing.
 
@@ -45,103 +45,104 @@ This procedure should only be used when:
 
 ### Pre-Step 3: Verify ISP Static IP Information
 
-Ask the caller:
+1. Ask the caller:
 
-> *Do you have the site's static IP information from the ISP?*
+   > *Do you have the site's static IP information from the ISP?*
 
-Record the following information:
+2. Record the following information:
 
-* Static IP Address
-* Subnet Mask
-* Default Gateway
+   1. Static IP Address
+   2. Subnet Mask
+   3. Default Gateway
 
-#### If the caller does not have the information
+3. If the caller does not have the information:
 
-Inform the caller:
+   1. Inform the caller:
 
-> *You'll need to contact your ISP and request your static IP address, subnet mask, and default gateway information.*
+      > *You'll need to contact your ISP and request your static IP address, subnet mask, and default gateway information.*
 
-* Document the interaction.
-* Close the Service Order.
+   2. Document the interaction.
+
+   3. Close the Service Order.
 
 ---
 
 ### Step 1: Verify Secondary WAN Connectivity
 
-Confirm:
+1. Confirm the following:
 
-* The ISP modem or router is connected to the secondary WAN interface.
-* The secondary WAN connection is active.
+   1. The ISP modem or router is connected to the secondary WAN interface.
+   2. The secondary WAN connection is active.
 
-Have the caller perform an internet search to verify connectivity.
+2. Have the caller perform an internet search to verify connectivity.
 
-#### If connectivity succeeds
+3. If connectivity succeeds:
 
-* Document successful connectivity.
-* Proceed to Step 2.
+   1. Document successful connectivity.
+   2. Proceed to Step 2.
 
-#### If connectivity fails
+4. If connectivity fails:
 
-* Recommend a temporary backup internet solution if appropriate.
-* Document findings.
-* Close the Service Order.
+   1. Recommend a temporary backup internet solution if appropriate.
+   2. Document findings.
+   3. Close the Service Order.
 
 ---
 
 ### Step 2: Identify the Workstation
 
-Determine which workstation will be used for testing.
+1. Determine which workstation will be used for testing.
 
-If necessary:
+2. If necessary:
 
-1. Identify the workstation's network connection.
-2. Verify the network port currently in use.
-3. Document the connection details.
-4. Ensure the workstation can be restored to its original state after testing.
+   1. Identify the workstation's network connection.
+   2. Verify the network port currently in use.
+   3. Document the connection details.
+   4. Ensure the workstation can be restored to its original state after testing.
 
-Proceed to Step 3.
+3. Proceed to Step 3.
 
 ---
 
 ### Step 3: Establish Remote Access
 
-Initiate a screen-sharing session with the workstation if available.
+1. Initiate a screen-sharing session with the workstation if available.
 
 ---
 
 ### Step 4: Configure the Network Adapter
 
-Open:
+1. Open:
 
-* **View Network Connections**
-* **Ethernet Adapter Properties**
-* **Internet Protocol Version 4 (IPv4)**
+   1. **View Network Connections**
+   2. **Ethernet Adapter Properties**
+   3. **Internet Protocol Version 4 (IPv4)**
 
-Document the current configuration:
+2. Document the current configuration:
 
-* IP Address
-* Subnet Mask
-* Default Gateway
-* Preferred DNS Server
-* Alternate DNS Server
+   1. IP Address
+   2. Subnet Mask
+   3. Default Gateway
+   4. Preferred DNS Server
+   5. Alternate DNS Server
 
-Update the adapter using the ISP-provided static IP information.
+3. Update the adapter using the ISP-provided static IP information.
 
-Configure DNS servers as appropriate for the environment.
+4. Configure DNS servers as appropriate for the environment.
 
-Save the changes.
+5. Save the changes.
 
 ---
 
 ### Step 5: Connect the Workstation Directly to the ISP Device
 
-Determine whether the ISP device is:
+1. Determine whether the ISP device is:
 
-* An Optical Network Terminal (ONT)
-* A modem or router with a single Ethernet port
-* A modem or router with multiple available Ethernet ports
+   1. An Optical Network Terminal (ONT)
+   2. A modem or router with a single Ethernet port
+   3. A modem or router with multiple available Ethernet ports
 
-Connect the workstation directly to the ISP equipment using the appropriate method.
+2. Connect the workstation directly to the ISP equipment using the appropriate method.
 
 > ⚠️ **Warning:** This process may temporarily interrupt network connectivity for the site.
 
@@ -149,65 +150,63 @@ Connect the workstation directly to the ISP equipment using the appropriate meth
 
 ### Step 6: Test Internet Access
 
-Have the caller browse to:
+1. Have the caller browse to:
 
-https://speedtest.net
+   https://speedtest.net
 
-#### If successful
+2. If the test is successful:
 
-Record:
+   1. Record:
 
-* Download Speed
-* Upload Speed
+      1. Download Speed
+      2. Upload Speed
+   2. Proceed to Step 7.
 
-Proceed to Step 7.
+3. If the test is unsuccessful:
 
-#### If unsuccessful
+   1. Record:
 
-Record:
-
-* Exact error message
-* Relevant troubleshooting observations
-
-Proceed to Step 7.
+      1. Exact error message
+      2. Relevant troubleshooting observations
+   2. Proceed to Step 7.
 
 ---
 
 ### Step 7: Restore Original Adapter Configuration
 
-Return the network adapter settings to the values documented in Step 4.
+1. Return the network adapter settings to the values documented in Step 4.
 
-Save the changes.
+2. Save the changes.
 
 ---
 
 ### Step 8: Restore Network Connections
 
-If any network connections were disconnected during testing:
+1. If any network connections were disconnected during testing:
 
-1. Reconnect the workstation to its original network connection.
-2. Reconnect the secondary WAN connection if applicable.
-3. Verify that network services have recovered.
+   1. Reconnect the workstation to its original network connection.
+   2. Reconnect the secondary WAN connection if applicable.
+   3. Verify that network services have recovered.
 
 ---
 
 ### Step 9: Verify Business-Critical Applications
 
-Confirm connectivity to business-critical applications and services.
+1. Confirm connectivity to business-critical applications and services.
 
-Document the results.
+2. Document the results.
 
-#### If connectivity issues remain
+3. If connectivity issues remain:
 
-* Record the current public IP address.
-* Escalate according to established procedures.
+   1. Record the current public IP address.
+   2. Escalate according to established procedures.
 
 ---
 
 ### Step 10: Escalation
 
-If the issue remains unresolved:
+1. If the issue remains unresolved:
 
-1. Document all troubleshooting performed.
-2. Include relevant test results and observations.
-3. Assign the Service Order to the appropriate resolver group according to escalation procedures.
+   1. Document all troubleshooting performed.
+   2. Include relevant test results and observations.
+   3. Assign the Service Order according to established escalation procedures.
