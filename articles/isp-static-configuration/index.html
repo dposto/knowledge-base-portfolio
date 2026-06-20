@@ -825,7 +825,7 @@
 <ol>
 <li>
 <p>Ask the caller: <em>Do you have the center's IP information from their internet service provider (ISP)?</em></p>
-</li>
+<ol>
 <li>
 <p>If Yes:</p>
 <ol>
@@ -860,8 +860,10 @@
 </li>
 </ol>
 </li>
+</ol>
+</li>
 <li>
-<p>Proceed to Step 1.</p>
+<p>Proceed below.</p>
 </li>
 </ol>
 <hr />
@@ -869,7 +871,7 @@
 <ol>
 <li>
 <p>⚠️ This process is not intended for use with a cellular backup.</p>
-</li>
+<ol>
 <li>
 <p>If the store is using a cellular backup:</p>
 <ol>
@@ -884,12 +886,14 @@
 </li>
 </ol>
 </li>
+</ol>
+</li>
 <li>
 <p>Have the caller: <em>Please verify the network cable from your ISP's modem or router is plugged into WAN2 on the Fortigate.</em></p>
 </li>
 <li>
 <p>Wait for a few minutes for the network to come back up, then have the caller: <em>Perform an internet search to verify the connection is working.</em></p>
-</li>
+<ol>
 <li>
 <p>If the connection was successful:</p>
 <ol>
@@ -915,8 +919,10 @@
 </li>
 </ol>
 </li>
+</ol>
+</li>
 <li>
-<p>Proceed to Step 2.</p>
+<p>Proceed below.</p>
 </li>
 </ol>
 <hr />
@@ -924,7 +930,7 @@
 <ol>
 <li>
 <p>Ask the caller: <em>Are you using a WFM or FOM?</em></p>
-</li>
+<ol>
 <li>
 <p>If FOM, determine which port the device is located on.</p>
 <ol>
@@ -960,6 +966,8 @@
 <p>If WFM, proceed to Step 3.</p>
 </li>
 </ol>
+</li>
+</ol>
 <hr />
 <h3 id="step-3-initiate-a-screen-share-session-with-the-fom-or-wfm">Step 3: Initiate a Screen-Share Session with the FOM or WFM</h3>
 <ol>
@@ -979,7 +987,7 @@
 </li>
 <li>
 <p><strong>Note the IP information currently in use to be used in Step 7:</strong></p>
-</li>
+<ol>
 <li>
 <p>Static IP Address:</p>
 </li>
@@ -994,6 +1002,8 @@
 </li>
 <li>
 <p>Alternate DNS servers:</p>
+</li>
+</ol>
 </li>
 <li>
 <p>Change the <em>"Use the following IP address:"</em> to match the information provided by the ISP noted in Pre-Step 3.</p>
@@ -1013,7 +1023,7 @@
 </li>
 <li>
 <p>Ask the caller: <em>Is the device an Optical Network Terminal (ONT or fiber modem) or does it have only one ethernet port?</em></p>
-</li>
+<ol>
 <li>
 <p>If Yes for either:</p>
 <ol>
@@ -1047,6 +1057,8 @@
 <li>Have the caller: <em>Plug the FOM / WFM directly into an available port on your ISP's modem / router.</em></li>
 </ol>
 </li>
+</ol>
+</li>
 <li>
 <p>Proceed to Step 6.</p>
 </li>
@@ -1056,7 +1068,7 @@
 <ol>
 <li>
 <p>Have the caller: <em>Attempt to access the webpage https://speedtest.net.</em></p>
-</li>
+<ol>
 <li>
 <p>If site connects:</p>
 <ol>
@@ -1091,17 +1103,21 @@
 </ol>
 </li>
 </ol>
+</li>
+</ol>
 <hr />
 <h3 id="step-7-return-wfm-fom-ethernet-adapter-settings-to-original-settings">Step 7: Return WFM / FOM Ethernet Adapter Settings to Original Settings</h3>
 <ol>
 <li>
 <p>Initiate a screen-share with the FOM / WFM if possible.</p>
-</li>
+<ol>
 <li>
 <p>If the FOM / WFM has connectivity, see <code>Article 3071</code> for instructions.</p>
 </li>
 <li>
 <p>If the FOM / WFM does not have connectivity, provide the instructions below to the caller.</p>
+</li>
+</ol>
 </li>
 <li>
 <p>In the Windows Search Bar at the bottom, search for and select <strong>View network connections</strong>.</p>
@@ -1113,7 +1129,7 @@
 <p>Under <em>"This connection uses the following items:"</em> click to highlight <strong>Internet Protocol Version 4</strong> and select <strong>Properties</strong>.</p>
 </li>
 <li>
-<p>Enter the original IP information noted in Step 4.</p>
+<p>Enter the IP information noted in Step 4.</p>
 </li>
 <li>
 <p>Click <strong>OK</strong> to save the changes.</p>
@@ -1130,7 +1146,7 @@
 <ol>
 <li>
 <p>If WAN2 of the Fortigate was disconnected from the ISP device in Step 5:</p>
-</li>
+<ol>
 <li>
 <p>Provide the following instructions:</p>
 <ol>
@@ -1148,6 +1164,8 @@
 <li>If the network does not come back up, move to <code>Article 4182</code>.</li>
 </ol>
 </li>
+</ol>
+</li>
 <li>
 <p>Proceed to Step 9.</p>
 </li>
@@ -1157,7 +1175,7 @@
 <ol>
 <li>
 <p>Have the caller: <em>Check the connection to AMS and USM to see if they are working.</em></p>
-</li>
+<ol>
 <li>
 <p>If both are not working:</p>
 <ol>
@@ -1174,6 +1192,8 @@
 </li>
 <li>
 <p>If USM is not working, move to <code>Article 2857</code>.</p>
+</li>
+</ol>
 </li>
 <li>
 <p>If the site connected in Step 6, proceed to Step 10.</p>
