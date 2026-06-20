@@ -13,7 +13,7 @@ This article provides procedures for scheduling new primary care patients, inclu
 
 ## Symptoms
 
-A new patient needs to schedule an appointment with a Primary Care Provider (PCP).
+New patient needs to schedule an appointment with a Primary Care Provider (PCP).
 
 ---
 
@@ -21,224 +21,241 @@ A new patient needs to schedule an appointment with a Primary Care Provider (PCP
 
 ### Pre-Step 1: Cardiac Concerns or Shortness of Breath
 
-1. If the patient expresses concern about cardiac issues or shortness of breath at any time:
+1. If the patient at any time expresses concern with cardiac issues or shortness of breath:
 
-   1. Inform the caller:
+    1. Inform the caller:
 
-      > *Your symptoms suggest a serious condition that requires immediate medical attention. Please hang up the phone and call 911 or go to the nearest emergency room.*
+        > *Your symptoms suggest a serious condition that requires immediate medical attention.*
 
-   2. Close the Service Order.
+        > *Please hang up the phone and call 911 or go to the nearest emergency room.*
+
+    1. Close the Service Order.
 
 ---
 
 ### Pre-Step 2: Addressing Sensitive Topics
 
-1. For information on addressing sensitive topics during calls, such as gender or diagnosis, refer to the **[Sensitive Topics Procedure]** article.
+1. For information on how to address sensitive topics during calls such as gender or diagnosis, proceed to `Article 7392`.
 
 ---
 
 ### Step 1: Determine if New or Existing Patient
 
-1. Ask the caller:
+1. Ask the caller: *Are you needing to schedule an appointment with a new primary care provider?*
 
-   > *Are you needing to schedule an appointment with a new primary care provider?*
+1. If Yes, proceed to Step 2.
 
-2. If Yes:
+1. If the caller is currently an existing patient:
 
-   1. Proceed to Step 2.
+    1. Inform the caller: *This number is for scheduling new patients.*
 
-3. If the caller is an existing patient:
+    1. Ask the caller: *Are you interested in scheduling with a new provider, or do you want to stay with your current provider?*
 
-   1. Inform the caller:
+    1. If the patient wants to schedule with their current provider:
 
-      > *This number is for scheduling new patients. Are you interested in scheduling with a new provider, or would you like to stay with your current provider?*
+        1. **Note in the Service Order the caller is not a new patient.**
 
-   2. If the patient wants to stay with their current provider:
+        1. Determine if the practice is open and if so, warm transfer the caller.
 
-      1. Note in the Service Order that the caller is not a new patient.
-      2. If the practice is open, warm transfer the caller. See **[Warm Transfer Procedures]**.
-      3. If the office is currently closed, proceed to Step 8.
+        1. See `Article 5814` for instructions.
 
-   3. If the patient would like to schedule with a new provider:
+        1. If the office is currently closed, proceed to Step 8.
 
-      1. Proceed to Step 2.
+    1. If the patient would like to schedule with a new provider, proceed to Step 2.
 
 ---
 
 ### Step 2: Gather Patient's Insurance and Determine if Accepted
 
-1. Refer to the **[Accepted Insurance Reference]** to determine whether the caller's insurance is accepted.
+1. See `Article 6271` to determine if the caller's insurance is accepted.
 
-2. Note the caller's insurance in the Service Order.
+1. **Note the caller's insurance.**
 
-3. If the insurance is accepted:
+1. If accepted:
 
-   1. Inform the patient:
+    1. Inform the patient: *Your insurance is accepted.*
 
-      > *Your insurance is accepted.*
+    1. Proceed to Step 3.
 
-   2. Proceed to Step 3.
+1. If NOT accepted, ask the caller: *Your insurance is not currently accepted. Would you still like to schedule a new appointment?*
 
-4. If the insurance is not accepted:
+    1. If Yes, proceed to Step 3.
 
-   1. Ask the caller:
+    1. If No:
 
-      > *Your insurance is not currently accepted. Would you still like to schedule a new appointment?*
+        1. Inform the patient: *Thank you for calling. Have a great day.*
 
-   2. If Yes:
+        1. Close the Service Order.
 
-      1. Proceed to Step 3.
-
-   3. If No:
-
-      1. Inform the patient:
-
-         > *Thank you for calling. Have a great day.*
-
-      2. Close the Service Order.
-
-5. If the patient does not have insurance:
-
-   1. Proceed to Step 3.
+1. If the patient does not have insurance, proceed to Step 3.
 
 ---
 
-### Step 3: Determine Which Location the Patient Needs to Schedule In
+### Step 3: Determine which City or Town the Patient Needs to Schedule In
 
 1. Inform the caller of the available service area locations.
 
-2. Ask the caller:
+1. Ask the caller: *Which area do you live closest to, or where would you like to see the provider?*
 
-   > *Which area do you live closest to, or where would you prefer to see the provider?*
-
-3. Note the caller's response in the Service Order.
+1. **Note the caller's response.**
 
 ---
 
-### Step 4: Determine Which Practice to Schedule With
+### Step 4: Determine which Practice to Schedule With
 
-1. Open the **[PCPs Taking New Patients]** scheduling reference.
+1. In a separate browser tab, navigate to the **PCPs Taking New Patients & Online Scheduling** reference spreadsheet.
 
-2. Navigate to the **PCPs Taking New Patients** tab.
+1. At the bottom, click on the **PCPs Taking New Patients** tab.
 
-3. Locate the city or town noted in Step 3.
+    1. The practices are the colored rows with the PCPs taking new patients listed below.
 
-4. Review the available practices and provider locations.
+    1. Practices are grouped by city, with each city being a separate color.
 
-5. Present the options to the caller and confirm which practice they prefer.
+1. In column A [City / Town], locate the city or town noted by the caller in Step 3.
 
-> ⚠️ **Note:** A practice must have providers listed beneath it to be eligible for new patient scheduling.
+1. Provide the caller the name of the practices and their location listed for the city or town to determine which the caller would like an appointment at.
 
-6. If you are unable to determine the correct practice:
+    1. The practice's name is in column B [Practice / Provider].
 
-   1. During standard business hours, contact the **[Scheduling Supervisor]**.
-   2. Outside business hours, or if the supervisor is unavailable, proceed to Step 8.
+    1. The address and location are on the same line to the right.
 
-7. Note the selected practice in the Service Order.
+    1. ⚠️ The practice **must** have providers listed below it to be able to schedule a new patient.
+
+1. If you are unable to determine what practice to schedule the caller at:
+
+    1. If current time is Monday–Friday, 8am–4:30pm:
+
+        1. Warm transfer the caller to the Scheduling Supervisor.
+
+        1. Close the Service Order.
+
+    1. If outside standard hours or the warm transfer is unsuccessful:
+
+        1. Proceed to Step 8.
+
+1. **Note the selected practice in the Service Order.**
 
 ---
 
-### Step 5: Determine Which Provider to Schedule With
+### Step 5: Determine which Provider to Schedule With
 
-1. If the caller requests a specific provider, attempt to schedule with that provider first.
+1. If the caller requests a specific provider, try to schedule with that provider first.
 
-2. Review the providers listed under the practice selected in Step 4.
+1. Review the providers listed under the practice selected in Step 4.
 
-3. If more than one provider is listed:
+    1. If more than one provider is listed, check in column G [Scheduling Priority] if one should be picked first.
 
-   1. Check the **Scheduling Priority** column.
-   2. If a provider is flagged, select that provider first.
-   3. If no priority is listed, any available provider may be selected.
+    1. If no priority is listed, any provider listed can be selected.
 
-4. Verify that the patient's age and insurance are accepted by the selected provider.
+1. Verify in column F [Age / Insurance] that the patient's age and insurance noted in Step 2 are accepted.
 
-5. Review any notes listed in the **Special Instructions** column.
+1. In column H [Special Instructions], check for any information noted and provide it to the caller.
 
-6. Communicate relevant instructions to the caller.
+1. If the caller requests information about the provider, a link to the provider's biographical information is available in column E [Provider Bio Link].
 
-7. If requested, provide provider information using the available biography link.
+1. **Note the selected provider in the Service Order.**
 
-8. Note the selected provider in the Service Order.
-
-9. Proceed to Step 6.
+1. Proceed to Step 6.
 
 ---
 
 ### Step 6: Select an Appointment with the Provider
 
-1. Click the **Online Scheduling** link for the selected provider.
+1. For the selected provider, in column D [Online Scheduling Link], click the scheduling link to pull up the provider's available appointments.
 
-2. If the message **"Sorry, we couldn't find any open appointments."** appears:
+    1. If the message *"Sorry, we couldn't find any open appointments."* appears:
 
-   1. Repeat Step 5 and check for additional providers at the same practice.
-   2. If no additional providers are available:
+        1. Repeat Step 5 to see if there are additional providers listed for the same practice.
 
-      1. Ask the caller:
+        1. If no additional providers are listed for the practice, ask the caller: *Would you like to schedule an appointment at a different location?*
 
-         > *Would you like to schedule an appointment at a different location?*
+            1. If Yes:
 
-      2. If Yes:
+                1. Repeat Steps 4.1–4.4 to determine if another practice is acceptable for the caller.
 
-         1. Repeat Steps 4–5 for an alternate practice.
+                1. If another practice is found, repeat Step 5.
 
-      3. If No:
+            1. If No:
 
-         1. Note the preferred practice, desired dates and times, and any issues in the Service Order.
-         2. Warm transfer if the office is open.
-         3. If closed, proceed to Step 8.
+                1. **Note the following in the Service Order:**
 
-3. Review available appointments with the caller.
+                    1. The practice the patient needs scheduled at.
 
-4. If **"more..."** appears beneath a time slot:
+                    1. Dates and times the caller needs.
 
-   1. Hover over it to reveal additional appointment times.
+                1. Determine if the practice is open and if so, warm transfer the caller.
 
-5. If no appointment is available within 7 days:
+                1. See `Article 5814` for instructions.
 
-   1. Repeat Step 5 and check for additional providers at the same practice.
-   2. If no providers have availability within 7 days:
+                1. If the office is currently closed, proceed to Step 8.
 
-      1. Inform the caller of the next available appointment.
+1. Review the appointments with the caller to determine which appointment they would like.
 
-      2. If the appointment is acceptable:
+1. If *"more..."* is below an appointment time, hover your mouse over it to view additional times available.
 
-         1. Select the appointment.
-         2. Proceed to Step 7.
+1. If an appointment is not available within 7 days:
 
-      3. If the appointment is not acceptable:
+    1. Repeat Step 5 to see if there are additional providers listed for the same practice.
 
-         1. Ask the caller:
+    1. If no additional providers have availability at the same practice within 7 days, inform the caller of the next available appointment.
 
-            > *Would you like to schedule at a different location?*
+        1. If the next available appointment is acceptable, proceed to Step 6.4.
 
-         2. If Yes:
+        1. If the next available appointment is NOT acceptable, ask the caller: *Would you like to schedule an appointment at a different location?*
 
-            1. Repeat Steps 4–5 for an alternate practice.
+            1. If Yes:
 
-         3. If No:
+                1. Repeat Steps 4.3–4.7 to determine if another practice is acceptable for the caller.
 
-            1. If the next available appointment is more than 2 weeks away:
+                1. If another practice is found, repeat Step 5.
 
-               1. Ask the caller:
+            1. If No:
 
-                  > *Would you like to schedule that appointment and be added to a waitlist in case an earlier opening becomes available? If a sooner appointment opens up, you'll receive a text notification to your cell phone.*
+                1. If the next available appointment is more than 2 weeks out, ask the caller:
 
-               2. If Yes:
+                    > *Would you like to schedule the appointment and be put on a waitlist if a sooner appointment opens up?*
 
-                  1. Note **SMS Waitlist Opt-In** and the caller's cell phone number in the Service Order.
-                  2. Proceed to Step 7.
+                    > *If a sooner appointment does become available, you'll receive a text notification to your cell phone notifying you.*
 
-               3. If No:
+                    1. If Yes:
 
-                  1. Note the preferred practice and desired dates/times.
-                  2. Warm transfer if open or proceed to Step 8.
+                        1. **Note the following in the Service Order:**
 
-            2. If the next available appointment is less than 2 weeks away:
+                            1. "SMS Waitlist opt-in"
 
-               1. Note the preferred practice and desired dates/times.
-               2. Warm transfer if open or proceed to Step 8.
+                            1. Cellphone number.
 
-6. Proceed to Step 7.
+                        1. Proceed to Step 6.4.
+
+                    1. If No:
+
+                        1. **Note the following in the Service Order:**
+
+                            1. The practice the patient needs scheduled at.
+
+                            1. Dates and times the caller needs.
+
+                        1. Determine if the practice is open and if so, warm transfer the caller.
+
+                        1. See `Article 5814` for instructions.
+
+                        1. If the office is currently closed, proceed to Step 8.
+
+                1. If the next available appointment is less than 2 weeks out:
+
+                    1. **Note the following in the Service Order:**
+
+                        1. The practice the patient needs scheduled at.
+
+                        1. Dates and times the caller needs.
+
+                    1. Determine if the practice is open and if so, warm transfer the caller.
+
+                    1. See `Article 5814` for instructions.
+
+                    1. If the office is currently closed, proceed to Step 8.
+
+1. Proceed to Step 7.
 
 ---
 
@@ -246,88 +263,94 @@ A new patient needs to schedule an appointment with a Primary Care Provider (PCP
 
 1. Click the selected appointment.
 
-2. Complete the CAPTCHA.
+1. In the pop-up, complete the CAPTCHA.
 
-3. Verify:
+1. Verify the provider, appointment date and time, and location listed are correct.
 
-   1. Provider
-   2. Appointment date
-   3. Appointment time
-   4. Location
+1. In the *"Reason for Visit"* field, enter the caller's reason.
 
-4. In the **Reason for Visit** field, enter the reason for the appointment.
+    1. For example, *"New patient visit"*, or if the caller mentions any additional information, enter that as well.
 
-5. Click **Continue**.
+1. Click **Continue**.
 
-6. Under **Continue as a Guest**, click **Continue**.
+    > ![step7-verify-appointment.png](../assets/images/new-patient-scheduling/step7-verify-appointment.png)
 
-#### Patient Information Screen
+1. On the right, under *"Continue as a Guest"*, click **Continue**.
 
-1. Ask for and enter the patient's information.
+    > ![step7-continue-as-guest.png](../assets/images/new-patient-scheduling/step7-continue-as-guest.png)
 
-2. Complete all required fields.
+1. On the Patient Information screen, ask for and enter the patient's information.
 
-> 🚫 **Do NOT request the patient's Social Security Number.**
-> If the SSN field is required, enter `000-00-0000` or `999-99-9999`.
+    1. Items listed with red asterisks (*) are required.
 
-3. Click **Next**.
+    1. ⚠️ **Do NOT request the patient's Social Security Number!**
 
-#### Insurance Information Screen
+        1. For the Social Security Number field, enter either *"000-00-0000"* or *"999-99-9999"*.
 
-1. Ask for and enter the patient's insurance information.
+    1. Click **Next**.
 
-2. If the patient has no insurance:
+        > ![step7-patient-information.png](../assets/images/new-patient-scheduling/step7-patient-information.png)
 
-   1. Select **No Insurance**.
+1. On the Insurance Information screen, ask for and enter the patient's insurance information.
 
-3. If the insurance is not listed:
+    1. This information can be found on their insurance card for the insurance noted in Step 2.
 
-   1. Select **Not Listed**.
+    1. If the caller does not have insurance, select **No Insurance**.
 
-4. Complete all required fields.
+    1. If the caller's insurance was not listed in `Article 6271`, select **Not Listed**.
 
-> 💡 **FYI:** Subscriber ID may also appear as Subscriber Number, Member Number, Member ID, Policy Number, or Policy ID.
+    1. Items listed with red asterisks (*) are required.
 
-5. Click **Schedule It!**
+    1. FYI: *"Subscriber ID"* may appear as *"Subscriber Number"*, *"Member Number"*, *"Member ID"*, *"Policy Number"*, *"Policy ID"*, etc.
 
-6. Inform the caller:
+    1. Click **Schedule it!** to complete the appointment.
 
-   > *You will shortly receive an email confirmation of your appointment, as well as an email with a link to register for the patient portal.*
+        > ![step7-insurance-information.png](../assets/images/new-patient-scheduling/step7-insurance-information.png)
 
-7. If the caller's insurance was not listed:
+1. Inform the caller: *You will shortly receive an e-mail confirmation of your appointment, as well as an e-mail containing a link for your patient portal registration.*
 
-   1. Provide the office phone number.
-   2. Offer a warm transfer if the caller would like additional assistance.
+1. If the caller's insurance was not listed in `Article 6271`:
 
-#### If the Appointment is Successfully Scheduled
+    1. Provide the phone number to the office and offer a warm transfer if they would like to speak to someone about their insurance.
 
-1. Note the following in the Service Order:
+    1. If needed, see `Article 5814` for instructions to warm transfer the caller.
 
-   1. Appointment Scheduled
-   2. Appointment Date
-   3. Appointment Time
-   4. Appointment Location
+1. If the appointment is successfully scheduled:
 
-2. Close the Service Order.
+    1. **Note the following in the Service Order:**
 
-#### If Unable to Schedule the Appointment
+        1. "Appointment Scheduled"
 
-1. Note the following in the Service Order:
+        1. Appointment Date.
 
-   1. Practice required
-   2. Preferred dates and times
-   3. Errors encountered
-   4. Additional troubleshooting notes
+        1. Appointment Time.
 
-2. Warm transfer if the office is open.
+        1. Appointment Location.
 
-3. If the office is closed, proceed to Step 8.
+    1. Close the Service Order.
+
+        > ![step7-appointment-confirmed.png](../assets/images/new-patient-scheduling/step7-appointment-confirmed.png)
+
+1. If unable to schedule the appointment:
+
+    1. **Note the following in the Service Order:**
+
+        1. The practice the patient needs scheduled at.
+
+        1. Dates and times the caller needs.
+
+        1. Any errors or issues.
+
+    1. Determine if the practice is open and if so, warm transfer the caller.
+
+    1. See `Article 5814` for instructions.
+
+    1. If the office is currently closed, proceed to Step 8.
 
 ---
 
 ### Step 8: Escalation
 
-1. If the issue remains unresolved:
+1. If the issue remains unresolved, follow the appropriate escalation procedure.
 
-   1. Follow the appropriate escalation procedure.
-   2. Refer to the **[Escalation Procedures]** article.
+1. See `Article 3956` for instructions.
