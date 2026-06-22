@@ -171,7 +171,7 @@ New patient needs to schedule an appointment with a Primary Care Provider (PCP).
 
             1. If Yes:
 
-                1. Repeat Steps 4.1–4.4 to determine if another practice is acceptable for the caller.
+                1. Repeat Step 4 to determine if another practice is acceptable for the caller.
 
                 1. If another practice is found, repeat Step 5.
 
@@ -199,13 +199,13 @@ New patient needs to schedule an appointment with a Primary Care Provider (PCP).
 
     1. If no additional providers have availability at the same practice within 7 days, inform the caller of the next available appointment.
 
-        1. If the next available appointment is acceptable, proceed to Step 6.4.
+        1. If the next available appointment is acceptable, proceed to Step 7.
 
         1. If the next available appointment is NOT acceptable, ask the caller: *Would you like to schedule an appointment at a different location?*
 
             1. If Yes:
 
-                1. Repeat Steps 4.3–4.7 to determine if another practice is acceptable for the caller.
+                1. Repeat Step 4 to determine if another practice is acceptable for the caller.
 
                 1. If another practice is found, repeat Step 5.
 
@@ -225,7 +225,7 @@ New patient needs to schedule an appointment with a Primary Care Provider (PCP).
 
                             1. Cellphone number.
 
-                        1. Proceed to Step 6.4.
+                        1. Proceed to Step 7.
 
                     1. If No:
 
